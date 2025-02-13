@@ -127,7 +127,7 @@ INSIGHTS: The most common room type is Room_type 1 and the Average price is 123.
 INSIGHTS: ONLINE generates the highest average price per room.
 
 
-## Recommendations
+## Recommendation
 - Optimize Meal Plan Offerings: Since Meal Plan 1 is the most popular, 
 consider enhancing its value by adding more appealing options or offering discounts on bulk bookings.
 - Adjust Pricing Strategy for Room Types: Room Type 6 has the highest average price, 
