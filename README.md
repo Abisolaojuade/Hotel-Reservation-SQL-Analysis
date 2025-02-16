@@ -113,17 +113,19 @@ INSIGHTS: January, February, October had the highest reservations with 90,80 and
 
 13. What is the average number of nights (both weekend and weekday) spent by guests for each room type?  
 INSIGHTS: The average number of nights for each room type are
-Room_Type 1 – 2.79
-Room_Type 2 – 3.17
-Room_Type 4 – 3.45
-Room_Type 5 – 2.50
-Room_Type 6 – 3.11
-Room_Type 7 – 2.60
+Room_Type 1 – 2.79,
+Room_Type 2 – 3.17,
+Room_Type 4 – 3.45,
+Room_Type 5 – 2.50,
+Room_Type 6 – 3.11,
+Room_Type 7 – 2.60.
 
 14. For reservations involving children, what is the most common room type, and what is the average price for that room type?
+
 INSIGHTS: The most common room type is Room_type 1 and the Average price is 123.12.
 
-15. Find the market segment type that generates the highest average price per room.  
+15. Find the market segment type that generates the highest average price per room. 
+ 
 INSIGHTS: ONLINE generates the highest average price per room.
 
 
