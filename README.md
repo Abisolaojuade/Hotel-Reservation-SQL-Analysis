@@ -10,13 +10,14 @@
 - [Project Objective](#Project-Objective)
 - [Data Cleaning](#Data-Cleaning-and-Transformation)
 - [Data Exploration and Insights](#Data-Exploration-and-Insights)
-- [Recommendation](#Recommendation)
 - [Conclusion](#Conclusion)
-
+- [Recommendation](#Recommendation)
 - ## Introduction
   The hotel industry relies on data to make informed decisions and provide a better guest experience.
    In this internship, I worked with a hotel reservation dataset to gain insights into guest preferences, booking trends,
    and other key factors that impact the hotel’s operations. I used SQL to query and analyze the data, as well as answer specific questions about the dataset.
+
+---
 
   ## Dataset Overview
   The dataset includes the following columns:
@@ -33,6 +34,8 @@
 -	Avg_price_per_room: The average price per room in the reservation.
 -	Booking_status: The status of the booking.
 - The dataset also has 700 rows.
+
+---
 
 ## Project objective
 I was tasked with analyzing this hotel reservation dataset using SQL. Here are 15 questions for which you will write SQL queries to gain insights: 
@@ -52,9 +55,11 @@ I was tasked with analyzing this hotel reservation dataset using SQL. Here are 1
 14. For reservations involving children, what is the most common room type, and what is the average price for that room type? 
 15. Find the market segment type that generates the highest average price per room.
 
-
+---
 
 ![Screenshot 2025-02-13 105710](https://github.com/user-attachments/assets/ff38c2eb-dcd0-441c-a9c2-d79e07de07d2)
+
+---
 
 ## Data Cleaning and Transformation
 - Rename Table
@@ -74,6 +79,9 @@ SET arrival_date = STR_TO_DATE(arrival_date, "%d-%m-%YYYY");
 ALTER TABLE hotel_reservation_data
 MODIFY COLUMN arrival_date DATE;
 ```
+
+---
+
 ## Data Exploration and Insights
 
 1. What is the total number of reservations in the dataset?  
@@ -128,6 +136,14 @@ INSIGHTS: The most common room type is Room_type 1 and the Average price is 123.
  
 INSIGHTS: ONLINE generates the highest average price per room.
 
+---
+
+## Conclusion
+The insights from this dataset provide valuable information for improving the hotel’s operations and revenue. 
+The hotel should capitalize on high-performing meal plans, room types, and market segments while introducing strategies to boost bookings during low-demand periods. 
+By implementing dynamic pricing, enhancing customer experience, and focusing on digital marketing, the hotel can maximize profitability and ensure long-term success.
+
+---
 
 ## Recommendation
 - Optimize Meal Plan Offerings: Since Meal Plan 1 is the most popular, 
@@ -148,9 +164,5 @@ Encourage early bookings with discounts while introducing last-minute deals for 
 - Increase Upselling Opportunities: With 493 confirmed reservations, the hotel should focus on upselling services such as premium rooms, spa treatments, and dining options to maximize revenue.
 - Monitor Market Trends: Since ONLINE bookings generate the highest average room price, consider focusing marketing efforts on digital platforms, enhancing the hotel website, and offering exclusive online discounts.
 
-## Conclusion
-The insights from this dataset provide valuable information for improving the hotel’s operations and revenue. 
-The hotel should capitalize on high-performing meal plans, room types, and market segments while introducing strategies to boost bookings during low-demand periods. 
-By implementing dynamic pricing, enhancing customer experience, and focusing on digital marketing, the hotel can maximize profitability and ensure long-term success.
 
 
